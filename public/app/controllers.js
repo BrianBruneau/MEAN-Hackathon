@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-angular.module('chordCtrls', ['chordServices', 'chordDirective']);
+angular.module('chordCtrls', ['chordServices', 'chordDirective'])
+
 .controller('HomeCtrl', ['$scope', function($scope) {
   console.log('good');
   
@@ -8,4 +8,4 @@ angular.module('chordCtrls', ['chordServices', 'chordDirective']);
 .controller('PianoCtrl', ['$scope', function($scope) {
   console.log('good');
 
-}])
+}]);

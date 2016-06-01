@@ -26,7 +26,7 @@ angular.module('chordDirective', [])
   var directive = {
     restrict: 'E',
     replace: true,
-    templateUrl: 'views/chord.html',
+    templateUrl: 'app/views/chord.html',
     scope: {
       voicings: '='
     },

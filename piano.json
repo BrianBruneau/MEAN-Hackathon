@@ -1,0 +1,7 @@
+// major chords
+major:{
+	Ab:['G#','C','D#'],
+	A: ['A','C#','E'],
+	A#:['A#','D','F'],
+	Bb:['A#','D','F'],
+	C: []

@@ -11,8 +11,8 @@ app.config([
   $stateProvider
   .state('home', {
     url: '/',
-    templateUrl: 'public/index.html',
-    controller: 'HomeCtrl'
+    templateUrl: 'public/app/views/show.html',
+    controller: ''
   })
   .state('piano', {
     url: '/piano',

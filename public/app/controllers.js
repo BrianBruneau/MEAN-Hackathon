@@ -1,1 +1,1 @@
-angular.module('chordCtrls', ['chordServices']);
+angular.module('chordCtrls', ['chordServices', 'chordDirective']);

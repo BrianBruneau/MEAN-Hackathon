@@ -1,4 +1,4 @@
-var app = angular.module('chordApp', ['ui.router', 'chordCtrls']);
+var app = angular.module('chordApp', ['chordCtrls', 'ui.router']);
 
 app.config([
   '$stateProvider',
@@ -11,17 +11,17 @@ app.config([
   $stateProvider
   .state('home', {
     url: '/',
-    templateUrl: 'public/app/views/show.html',
-    controller: ''
+    templateUrl: 'index.html',
+    controller: 'HomeCtrl'
   })
   .state('piano', {
     url: '/piano',
-    templateUrl: 'public/app/views/piano.html',
+    templateUrl: 'app/views/piano.html',
     controller: 'PianoCtrl'
   })
   .state('404', {
     url: '/404',
-    templateUrl: 'public/app/views/404.html'
+    templateUrl: 'app/views/404.html'
   });
 
   $locationProvider.html5Mode(true);

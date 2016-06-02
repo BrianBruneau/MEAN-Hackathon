@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/mattsluis/MEAN-Hackathon#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "express-jwt": "^3.4.0",
+    "less": "^2.7.1",
+    "mongoose": "^4.4.19"
   }
 }

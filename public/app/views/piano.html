@@ -1,6 +1,18 @@
-<div class="page">
-  <h1>Play The <b>CSS3</b> Piano!</h1>
-  <h2><b>Ebony and Ivory meet CSS.</b><br> Tap a key to play its note</h2>
+<div class="page" ng-controller = "PianoCtrl">
+  <form ng-submit="search()">
+    <div class="form-group">
+      <label>Chord Search</label>
+      <input type="text" class="form-control" ng-model="note">
+            <input type="text" class="form-control" ng-model="pianoMod">
+      <input type="submit" value="Search" class="btn btn-primary">
+      </div>
+    </form>
+    </div>  
+
+    <div id="chord">
+      <strong>{{data}}</strong>
+    <div>
+
 <ol class="scale-1">
   <li data-note="c" >C</li>
   <li data-note="cs" class="ebony">C# D♭</li>
@@ -31,4 +43,3 @@
   <li data-note="b">B</li>
 </ol>
 </div>
-

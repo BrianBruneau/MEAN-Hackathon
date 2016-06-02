@@ -5,29 +5,29 @@ angular.module('chordCtrls', ['chordServices', 'chordDirective'])
   
 }])
 
-// .controller('PianoCtrl', ['$scope', function($scope) {
-//   console.log('good');
+.controller('PianoCtrl', ['$scope', function($scope) {
+  console.log('good');
 
-// }])
+}])
 
 
-.controller('PianoCtrl', ['$scope', '$http', function($scope, $http) {
-  // $scope.image = '';
-  $scope.chord = [];
+// .controller('PianoCtrl', ['$scope', '$http', function($scope, $http) {
+//   // $scope.image = '';
+//   $scope.chord = [];
 
-  $scope.search = function() {
-    var req = {
-      url: "https://chords-api-app.herokuapp.com/piano/" + $scope.note + '/' $scope.pianoMod,
-      method: 'GET'
-    }
+//   $scope.search = function() {
+//     var req = {
+//       url: "https://chords-api-app.herokuapp.com/piano/" + $scope.note + '/' $scope.pianoMod,
+//       method: 'GET'
+//     }
 
-    $http(req).then(function success(res) {
-      var data = res.data;
-      console.log(data);
-      $scope.chord = data;
-    }, function error(res) {
-      console.log(res);
-    });
-  }
-}]);
+//     $http(req).then(function success(res) {
+//       var data = res.data;
+//       console.log(data);
+//       $scope.chord = data;
+//     }, function error(res) {
+//       console.log(res);
+//     });
+//   }
+// }]);
 

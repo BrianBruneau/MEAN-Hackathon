@@ -1,5 +1,4 @@
 var express = require('express');
-var less = require('less');
 var bodyParser = require('body-parser');
 var path = require('path');
 var expressJWT = require('express-jwt');

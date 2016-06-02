@@ -1,1 +1,1 @@
-angular.module('chordServices', ['ngResource']);
+angular.module('chordServices', ['ngResource'])

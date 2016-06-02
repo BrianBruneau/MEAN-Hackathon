@@ -1,4 +1,4 @@
-var app = angular.module('chordApp', ['chordCtrls', 'ui.router']);
+var app = angular.module('chordApp', ['chordCtrls', 'ui.router'])
 
 app.config([
   '$stateProvider',

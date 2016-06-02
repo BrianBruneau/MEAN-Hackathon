@@ -2,13 +2,14 @@ var express = require('express');
 var less = require('less');
 var bodyParser = require('body-parser');
 var path = require('path');
+var mongoose = require('mongoose');
 var expressJWT = require('express-jwt');
 var jwt = require('jsonwebtoken');
 var app = express();
 
 
 
-var mongoose = require('mongoose');
+
 
 // mongoose.connect('mongodb://localhost/recipes');
 

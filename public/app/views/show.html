@@ -1,4 +1,15 @@
 <h1>Guitar Chords</h1>
 <h2></h2>
+<form class="form" ng-submit="search()">
+  <div class="form-group">
+    <label>Search for a chord:</label>
+    <input type="text" class="form-control" ng-model="searchTerm">
+    <input type="submit" class="btn btn-primary">
+  </div>
+</form>
+
+  <div class="well"  ng-repeat="chord in chords track by $index">
+      <h1> {{chord.type}} <small>Episode: {{chord.data}} </small></h1>
+  </div>
 
 <chord voicings="[1,2,3,4,5,6,7,8,9]"></chord>
